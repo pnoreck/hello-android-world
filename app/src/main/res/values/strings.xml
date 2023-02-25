@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Drogen-Test</string>
+    <string name="second_fragment_label">Antwort</string>
+    <string name="next">Check</string>
+    <string name="previous">Zurück</string>
+
+    <string name="hello_first_fragment">Sollte ich mehr nehmen?</string>
+    <string name="hello_second_fragment">Auf jeden Fall!</string>
+</resources>
