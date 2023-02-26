@@ -7,6 +7,10 @@
     <string name="next">Check</string>
     <string name="previous">Zurück</string>
 
-    <string name="hello_first_fragment">Sollte ich mehr nehmen?</string>
+    <string name="hello_first_fragment">Sollte ich nachlegen?</string>
     <string name="hello_second_fragment">Auf jeden Fall!</string>
+    <string name="add">Nachlegen</string>
+    <string name="abbort">Aussetzen</string>
+    <string name="amount_taken">Bereits nachgelegt:</string>
+    <string name="have_fun">Haben Sie Spass!</string>
 </resources>

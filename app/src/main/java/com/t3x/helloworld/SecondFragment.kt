@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.snackbar.Snackbar
 import com.t3x.helloworld.databinding.FragmentSecondBinding
 
 /**
@@ -35,6 +37,16 @@ class SecondFragment : Fragment() {
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
+
+        // find the toast_button by its ID and set a click listener
+        view.findViewById<Button>(R.id.button_add).setOnClickListener {
+            val haveFun: String = getString(R.string.have_fun)
+            // create a Toast with some text, to appear for a short time
+            val amountTaken = Snackbar.make(view, haveFun, Snackbar.LENGTH_SHORT)
+            // show the Toast
+            amountTaken.show()
+        }
+
     }
 
     override fun onDestroyView() {
